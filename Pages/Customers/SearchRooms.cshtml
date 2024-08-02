@@ -1,0 +1,32 @@
+﻿@page
+@model ThreeSistersHotel.Pages.Customers.SearchRoomsModel
+@{
+}
+
+<h1>Search for an available room</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label for="numberOfBeds">Number Of Rooms</label>
+                <select class="form-control" id="numberOfBeds">
+                    <option>1 Bed</option>
+                    <option>2 Beds</option>
+                    <option>3 Beds</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="checkInDate">Check In Date</label>
+                <input class="form-control" type="date" id="checkInDate" />
+            </div>
+            <div class="form-group">
+                <label for="checkOutDate">Check Out Date</label>
+                <input class="form-control" type="date" id="checkInDate" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
